@@ -1,0 +1,27 @@
+h1, p {
+    text-align: center;
+    color: lightpink;
+    font-family: monospace, sans-serif;
+}
+
+li:hover {
+    background-color: lightpink;
+    
+}
+li:active {
+font-family: 'monospace', sans-serif;
+font-size: 20px;
+}
+
+li {
+    list-style: none
+    
+}
+
+p {
+    font-size: 20px;
+}
+
+ul, ol {
+    color:royalblue;
+}
