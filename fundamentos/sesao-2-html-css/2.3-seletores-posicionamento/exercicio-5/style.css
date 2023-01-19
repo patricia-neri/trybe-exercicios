@@ -1,0 +1,62 @@
+.cor {
+    background-color: yellow;
+}
+
+.par {
+ color: green;
+}
+
+.impar {
+    text-transform: uppercase;
+}
+
+h1, h3 {
+    color: red;
+}
+
+h1 em, h3 em {
+    font-size: 40px;
+    border: 1px black solid;
+}
+
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight:700;
+}
+
+.azul {
+    color: blue;
+}
+
+.java {
+    background-color: pink;
+}
+
+#cores li a:hover {
+    font-weight: 700;
+}
+
+#cores li a[href*="stackoverflow"] {
+    color: orange;
+}
+
+#cores li a[href*="w3schools"] {
+    color: green
+}
+
+#cores li a[href*="mozilla"] {
+    color: black;
+}
+
+#cores li a[href*="devdocs"] {
+    color: yellow;
+}
+
+#cores li a[href*="trybe"]  {
+    color: green;
+}
+
+
+
