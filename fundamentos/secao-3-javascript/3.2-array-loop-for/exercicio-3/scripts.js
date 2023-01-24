@@ -36,3 +36,38 @@ for (let index = 0; index < numbers.length; index += 1) {
 }
 console.log(maiorValor);
 
+//Exercicio 6
+let impar = 0;
+for (let index = 0; index < numbers.length; index ++) {
+  if (numbers[index] % 2 !== 0) {
+    impar += 1;
+  }
+}
+if (impar === 0) {
+  console.log('nenhum valor ímpar encontrado');
+} 
+else {
+  console.log(impar)
+}
+
+//Exercicio 7
+let menorValor = numbers [0];
+for (let index = 1; index < numbers.length; index += 1) {
+  if (numbers[index] < menorValor) {
+    menorValor = numbers[index];
+  }
+}
+console.log(menorValor)
+
+//Exercicio 8
+let number = [];
+for (let index =1; index <=25; index ++) {
+  number.push(index);
+}
+console.log(number);
+
+//Exercicio 9
+let divisao = 0
+for (let index = 0; index < number.length; index ++) {
+  console.log(number[index] / 2);
+ };
