@@ -37,12 +37,14 @@ for (let index = 0; index < numbers.length; index += 1) {
 console.log(maiorValor);
 
 //Exercicio 6
-let impar = 0;
+let impar = [];
 for (let index = 0; index < numbers.length; index ++) {
   if (numbers[index] % 2 !== 0) {
-    impar += 1;
+    impar.push(numbers[index]);
   }
 }
+console.log(impar)
+
 if (impar === 0) {
   console.log('nenhum valor ímpar encontrado');
 } 
