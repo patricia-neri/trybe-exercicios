@@ -1,0 +1,1 @@
+# Configuração do Banco de Dados Ao clonar este repositório, é importante que você configure corretamente o acesso ao banco de dados para que a aplicação funcione de forma adequada. Para isso, siga os passos abaixo: 1. Renomeie o arquivo `.env-example` para `.env`.
